@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2015, 11:27:09 AM
+    Author     : Sodeeq Adeosun
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px Times New Roman;
+}
+h2{
+	font: bold 20px Times New Roman;
+	padding:10px;
+	margin-bottom: 20px;
+}
+h2.h2 {
+font: bold 20px Times New Roman;
+color: red;
+}
+h3{
+	font: bold 30px Times New Roman;
+}
+header, nav, section, article, aside {
+	display: block;
+}
+body{
+	text-align: center;
+	background: #DCDDDF url(http://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+}
+.main_header {
+	width: 1000px;
+	border: 0px solid black;
+	margin: 20px auto;
+	background: white;
+	padding: 20px;
+}
+/* .top_header {
+	background: url(image/Header1.png);
+} */
+.login_button {
+    margin-top: 20px;
+    padding-top: 2px;
+        margin: 20px auto;
+}
+.main_footer {
+	clear:both;
+	border-top:2px solid green;
+	padding:10px;
+	text-align:center;
+	border: 1px solid black;
+	background: blue;
+	color: white;
+}
+.sub_div {
+	float: left;
+	margin: 20px auto;
+	padding: 20px;
+	width: 50%;
+	background: green;
+	color: white;
+}
+.sub_div1 {
+	float: left;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: gray;
+}
+.sub_div2 {
+	float: none;
+	margin: 20px auto;
+	padding: 20px;
+}
+.sub_div0 {
+	float: right;
+	margin: 20px auto;
+	padding: 20px;
+	font: bold 15px Times New Roman;
+	width: 42%;
+	background-color: gray;
+}
+.the_form {
+	color: yellow;
+	margin: 20px auto;
+}
+.button {
+	color: #7E7E7E;
+	font-size: 20px;
+        border-radius: 40px;
+/*    border-radius: 20px;*/
+    border: none;
+    padding: 10px;
+}
+.button :hover {
+	background-position: 0 -135px;
+	color: red;
+}
+.proceed_button{
+	margin-top: 30px;
+}
+.form{
+	float: left;
+	margin-bottom: 20px;
+	font: bold 15px Times New Roman;
+}
+.menu {
+	/* color: green; */
+	text-align: center;
+
+}
+.menu :hover {
+    color: black;
+}
+.menu li {
+	display: inline-block;
+	padding: 5px;
+	list-style: none;
+	font: bold 12px Times-New-Roman;
+	/*color: blue;*/
+}
+.menu a{
+	color:red;
+	text-align: center;
+	text-decoration: none;
+
+}
+.std_action {
+	float: left;
+	background: green;
+	margin: 20px;
+}
+.std_action p{
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.std_action a{
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;
+}
+.result {
+	margin: 20px auto;
+}
+/* .result button:hover {
+	
+} */
